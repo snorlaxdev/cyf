@@ -122,12 +122,13 @@ class Soal {
 
     function five(){
         // Tolonglah, saya lemah sama soal yang seperti ini :(
-        echo "DWDW      DW          DW";
-        echo "DW  DW    DW          DW";
-        echo "DW    DW  DW    DW    DW";
-        echo "DW    DW  DW  DWDWDW  DW";
-        echo "DW  DW    DWDW      DWDW";
-        echo "DWDW      DW          DW";
+        header('Content-Type: text/plain');
+        echo "DWDW      DW          DW\n";
+        echo "DW  DW    DW          DW\n";
+        echo "DW    DW  DW    DW    DW\n";
+        echo "DW    DW  DW  DWDWDW  DW\n";
+        echo "DW  DW    DWDW      DWDW\n";
+        echo "DWDW      DW          DW\n";
     }
 
     function six($id){
