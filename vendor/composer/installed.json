@@ -1,0 +1,51 @@
+[
+    {
+        "name": "rundiz/serial-number-generator",
+        "version": "v0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Rundiz/serial-number-generator.git",
+            "reference": "24667d2c556ce093f5a7e901eff7f89945349636"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Rundiz/serial-number-generator/zipball/24667d2c556ce093f5a7e901eff7f89945349636",
+            "reference": "24667d2c556ce093f5a7e901eff7f89945349636",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-12-04T12:23:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Rundiz\\SerialNumberGenerator\\": "Rundiz/SerialNumberGenerator"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Vee W.",
+                "email": "kawewong@gmail.com",
+                "homepage": "http://rundiz.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Generate serial number or random string that is very easy.",
+        "keywords": [
+            "auth code",
+            "cd key",
+            "cdkey",
+            "key code",
+            "random string",
+            "serial number",
+            "serialnumber"
+        ]
+    }
+]

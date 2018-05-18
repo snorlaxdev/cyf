@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e5abbe1ce3159766065b984187cc5f0",
+    "packages": [
+        {
+            "name": "rundiz/serial-number-generator",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rundiz/serial-number-generator.git",
+                "reference": "24667d2c556ce093f5a7e901eff7f89945349636"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rundiz/serial-number-generator/zipball/24667d2c556ce093f5a7e901eff7f89945349636",
+                "reference": "24667d2c556ce093f5a7e901eff7f89945349636",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rundiz\\SerialNumberGenerator\\": "Rundiz/SerialNumberGenerator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vee W.",
+                    "email": "kawewong@gmail.com",
+                    "homepage": "http://rundiz.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate serial number or random string that is very easy.",
+            "keywords": [
+                "auth code",
+                "cd key",
+                "cdkey",
+                "key code",
+                "random string",
+                "serial number",
+                "serialnumber"
+            ],
+            "time": "2016-12-04T12:23:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

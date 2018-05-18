@@ -1,0 +1,16 @@
+{
+    "name": "fauzanelka/cyf",
+    "description": "Test Code Your Future",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fauzan Elka",
+            "email": "fauzan.elka@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "rundiz/serial-number-generator": "^0.1.0"
+    }
+}
