@@ -21,7 +21,7 @@
                 <?= isset($invalid) ? "<div class=\"alert alert-danger\">$invalid</div>" : "" ?>
                 <?= isset($returnVal) ? "<div class=\"alert alert-success\">$returnVal</div>" : "" ?>
                 <div class="card">
-                    <div class="card-header">Soal Nomor 2</div>
+                    <div class="card-header">Soal Nomor 4</div>
                     <div class="card-body">
                         <form action="index.php?id=4" method="post">
                             <div class="form-group">
