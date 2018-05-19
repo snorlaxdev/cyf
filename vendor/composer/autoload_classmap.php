@@ -6,4 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CodeYourFuture\\Database' => $baseDir . '/config/Database.php',
+    'CodeYourFuture\\Helper\\Changes' => $baseDir . '/helper/Changes.php',
+    'CodeYourFuture\\Helper\\SerialNumberGenerator' => $baseDir . '/helper/SerialNumberGenerator.php',
+    'CodeYourFuture\\Helper\\SimpleValidation' => $baseDir . '/helper/SimpleValidation.php',
+    'CodeYourFuture\\Model\\Biodata' => $baseDir . '/model/Biodata.php',
+    'CodeYourFuture\\Model\\Post' => $baseDir . '/model/Post.php',
 );

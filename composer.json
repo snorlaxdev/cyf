@@ -1,16 +1,19 @@
 {
     "name": "fauzanelka/cyf",
-    "description": "Test Code Your Future",
+    "description": "Soal CodeYourFuture",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fauzan Elka",
+            "name": "fauzan.elka",
             "email": "fauzan.elka@hotmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
         "rundiz/serial-number-generator": "^0.1.0"
+    },
+    "autoload" : {
+        "classmap" : ["config/", "helper/", "model/"]
     }
 }
