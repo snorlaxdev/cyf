@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit679b2067ebad0fca3411c10582fc801d
+class ComposerStaticInit34b01e11115f223da30ea81324edabfc
 {
     public static $prefixLengthsPsr4 = array (
         'R' => 
@@ -20,11 +20,21 @@ class ComposerStaticInit679b2067ebad0fca3411c10582fc801d
         ),
     );
 
+    public static $classMap = array (
+        'CodeYourFuture\\Database' => __DIR__ . '/../..' . '/config/Database.php',
+        'CodeYourFuture\\Helper\\Changes' => __DIR__ . '/../..' . '/helper/Changes.php',
+        'CodeYourFuture\\Helper\\SerialNumberGenerator' => __DIR__ . '/../..' . '/helper/SerialNumberGenerator.php',
+        'CodeYourFuture\\Helper\\SimpleValidation' => __DIR__ . '/../..' . '/helper/SimpleValidation.php',
+        'CodeYourFuture\\Model\\Biodata' => __DIR__ . '/../..' . '/model/Biodata.php',
+        'CodeYourFuture\\Model\\Post' => __DIR__ . '/../..' . '/model/Post.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit679b2067ebad0fca3411c10582fc801d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit679b2067ebad0fca3411c10582fc801d::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit34b01e11115f223da30ea81324edabfc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit34b01e11115f223da30ea81324edabfc::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit34b01e11115f223da30ea81324edabfc::$classMap;
 
         }, null, ClassLoader::class);
     }
